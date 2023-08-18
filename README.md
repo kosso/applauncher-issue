@@ -14,11 +14,11 @@ To do this, we test for the URLs : `twitter://timeline`  and `fb://feed`.
 
 #### Results (with both Twitter and Facebook apps installed on the devices)
 
+#### Result iOS
+<img style="border:2px solid black" width="300" src="./RESULT-ios.png">
 
-<img width="400" src="./RESULT-ios.png">
-
-<img width="400" src="./RESULT-android.png">
-
+#### Result Android
+<img style="border:2px solid black" width="300" src="./RESULT-android.png">
 
 
 -----------------
