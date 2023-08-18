@@ -1,0 +1,10 @@
+{
+  "appId": "com.kosso.applauncherissue",
+  "appName": "ApplauncherIssue",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
