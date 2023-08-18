@@ -13,15 +13,18 @@ To do this, we test for the URLs : `twitter://timeline`  and `fb://feed`.
 
 
 #### Results (with both Twitter and Facebook apps installed on the devices)
-
+---------------------
 #### Result iOS
 <img width="300" src="./RESULT-ios.png">
+
+---------------------
 
 #### Result Android
 <img width="300" src="./RESULT-android.png">
 
+---------------------
 
------------------
+## Bug Report 
 
 ### Plugin(s)
 
