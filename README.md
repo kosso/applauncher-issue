@@ -6,6 +6,12 @@ See the issue here : [https://github.com/ionic-team/capacitor-plugins/issues/174
 
 -----------------
 
+#### sample app id
+
+`com.kosso.applauncherissue`
+
+- To test this app, please ensure you have both the Twitter/X & Facebook apps installed on iOS and Android test devices. 
+
 This sample app will use the documented `AppLauncher.canOpenUrl()` method to test to see if the Twitter/X and Facebook apps are installed on iOS and Android.  The results are shown in the app window.
 
 
