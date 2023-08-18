@@ -17,6 +17,8 @@ This sample app will use the documented `AppLauncher.canOpenUrl()` method to tes
 
 To do this, we test for the URLs : `twitter://timeline`  and `fb://feed`.
 
+The test JS code resides in `./js/test-app.js`
+
 
 #### Results (with both Twitter and Facebook apps installed on the devices)
 ---------------------
