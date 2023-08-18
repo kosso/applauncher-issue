@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kosso.applauncherissue">
 
     <application
         android:allowBackup="true"
@@ -41,13 +42,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
 
-    <!-- ATTEMPTS TO MAKE AppLauncher.canOpenUrl({ url:'...'}) WORK AS DOCUMENTED! -->
-
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
-        tools:ignore="QueryAllPackagesPermission" />
+    <!--    Required for testing canOpenURL()  -->
     <queries>
-        <package android:name="com.twitter.android" />
-        <package android:name="com.facebook.katana" />
         <intent>
             <action android:name="android.intent.action.VIEW"/>
             <data android:scheme="twitter"/>
@@ -55,6 +51,10 @@
         <intent>
             <action android:name="android.intent.action.VIEW"/>
             <data android:scheme="fb"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" android:host="*" />
         </intent>
     </queries>
 
